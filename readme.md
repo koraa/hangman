@@ -105,3 +105,4 @@ store the high score achieved in the list of high scores.
 Copyright 2017 by Karolin Varner
 
 License: CC0/Public Domain (as applicable)
+By me a club mate if you meet me!
