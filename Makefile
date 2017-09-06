@@ -7,10 +7,10 @@ all: build serve
 ./node_modules/:
 	npm install
 
-webroot/client.pack.js: client.js
+webroot/client.pack.js: client.js ./node_modules/
 	webpack $< $@
 
-webroot/client.pack.min.js: webroot/client.pack.js
+webroot/client.pack.min.js: webroot/client.pack.js ./node_modules/
 	minify $< -o $@
 
 key.pem:
