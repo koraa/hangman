@@ -1,0 +1,5 @@
+highscore
+key.pem
+node_modules/
+webroot/client.pack.js
+webroot/client.pack.min.js

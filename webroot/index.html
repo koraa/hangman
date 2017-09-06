@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Hangman!</title>
+<link rel="stylesheet" href="style.css">
+
+<div id='score-wrap'>
+  Score: <span id="current-score">0</span>
+</div>
+<div id='turn-wrap'>
+  Turn: <span id="current-turn">1</span>
+</div>
+
+<div id='tabs'>
+  <div id="game" class="mode">
+    <div id="the-word"></div>
+    <div>Use your keyboard to guess a character!</div>
+  </div>
+
+  <div id="highscore" class="mode hidden">
+    <h1>You Won!</h1>
+    <table id="highscore-table">
+      <tr>
+        <td class='idxfield' align='right'></td>
+        <td class='nickfield' align='left'></td>
+        <td class='scorefield' align='right'></td>
+      </tr>
+    </table>
+    <div id="nick-input-container">
+      <div>Enter your nick:</div>
+      <input id="nick-input" type="text"></input>
+    </div>
+    <div>Reload to start a new game!</div>
+  </div>
+</div>
+
+<script src="client.pack.min.js"></script>
