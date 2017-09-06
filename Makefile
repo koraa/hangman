@@ -24,7 +24,7 @@ test:
 	mocha **/test_*.js
 
 serve: ./node_modules/ key.pem
-	echo -e '3dhubs\nmarvin\nprint\nfilament\norder\nlayer' | node ./server.js key.pem highscore
+	node ./server.js key.pem highscore < words
 
 clean:
 	rm -fv key.pem webroot/client.pack.min.js webroot/client.pack.js
