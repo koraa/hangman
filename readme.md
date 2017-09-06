@@ -99,3 +99,9 @@ store the high score achieved in the list of high scores.
   without playing)
 * Improve the scoring (scores are too large right now)
 * Make the UI look nicer on mobile devices
+
+## Copyright
+
+Copyright 2017 by Karolin Varner
+
+License: CC0/Public Domain (as applicable)
